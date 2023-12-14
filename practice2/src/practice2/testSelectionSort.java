@@ -84,7 +84,7 @@ SelectionSort sorter = new SelectionSort();
         Sortedarr[2] = 0;
         Sortedarr[3] = 7;
         Sortedarr[4] = 10;
-        
+        //comment 3
         sorter.basicSelectionSort(arr);
         assertArrayEquals(Sortedarr, arr);
     }
@@ -101,6 +101,7 @@ SelectionSort sorter = new SelectionSort();
         arr[2] = -7;
         arr[3] = 2;
         arr[4] = 2;
+        //comment 4
         
         int[] Sortedarr = new int[5];
         Sortedarr[0] = -8;
