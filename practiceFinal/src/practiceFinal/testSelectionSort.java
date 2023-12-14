@@ -87,6 +87,7 @@ SelectionSort sorter = new SelectionSort();
         
         sorter.basicSelectionSort(arr);
         assertArrayEquals(Sortedarr, arr);
+        //third comment
     }
     
     public void testDuplicates(){
@@ -108,6 +109,7 @@ SelectionSort sorter = new SelectionSort();
         Sortedarr[2] = -7;
         Sortedarr[3] = 2;
         Sortedarr[4] = 2;
+        //fourth comment
         
         sorter.basicSelectionSort(arr);
         assertArrayEquals(Sortedarr, arr);
