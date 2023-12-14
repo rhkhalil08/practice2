@@ -39,7 +39,7 @@ class testSelectionSort {
         assertArrayEquals(Sortedarr, arr);
 
         /** add tests to check for this unit test **/
-        
+        //comment 1
         
     }
     
@@ -63,7 +63,7 @@ class testSelectionSort {
         
         sorter.basicSelectionSort(arr);
         assertArrayEquals(Sortedarr, arr);
-        
+        //second comment
     }
     
     public void testMixed(){
