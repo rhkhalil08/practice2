@@ -37,7 +37,8 @@ class testSelectionSort {
         
         sorter.basicSelectionSort(arr);
         assertArrayEquals(Sortedarr, arr);
-
+        
+        //first commit
         /** add tests to check for this unit test **/
         
         
@@ -60,7 +61,7 @@ class testSelectionSort {
         Sortedarr[2] = -8;
         Sortedarr[3] = -7;
         Sortedarr[4] = -2;
-        
+        //second commit 
         sorter.basicSelectionSort(arr);
         assertArrayEquals(Sortedarr, arr);
         
